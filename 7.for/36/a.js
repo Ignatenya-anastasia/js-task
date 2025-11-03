@@ -1,4 +1,4 @@
-let array = [1, 3, 5, 6, 9];
+let array = [1, 3, 5, 6, 9] ;
 let sum = 0;
 let first = null;
 let second = null;
@@ -19,8 +19,9 @@ if(first !== null && second !== null){
     console.log(first);
     console.log(second);
     
-    
-} else{
+}
+
+if(first !== null && second == null){
     console.log('not found');
     
-}
+} 
