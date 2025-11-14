@@ -1,0 +1,12 @@
+let num = +prompt();
+let a = [];
+
+for(let i = 0; i < num; i++){
+    a.push(prompt());
+}
+
+const res = a.filter(function(el){
+    return el.length < 5 ? true : false
+})
+
+console.log(res);
