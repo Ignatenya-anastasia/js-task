@@ -1,9 +1,4 @@
-const a = prompt('');
-
-if(a.length > 0){
-    console.log(true);
-} else{
-    console.log(false);
+for(let i = 5; i >= 1; i--){
+    console.log('*'.repeat(i));
+    
 }
-
-// a.length > 0 ? console.log("true") : console.log("false");
